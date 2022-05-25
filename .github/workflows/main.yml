@@ -11,6 +11,5 @@ jobs:
     steps:
       - uses: tgymnich/fork-sync@v1.4
         with:
-          owner: kiryl1
           base: main
           head: main
