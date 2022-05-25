@@ -5,12 +5,14 @@ on:
 
 jobs:
   sync:
-
     runs-on: ubuntu-latest
 
     steps:
-      - uses: tgymnich/fork-sync@v1.4
+      - uses: tgymnich/fork-sync@v1.3
         with:
           owner: kiryl1
-          base: main
           head: main
+          base: main
+          merge_method: merge
+          pr_title: Fork Sync
+          auto_approve: true
