@@ -6,7 +6,7 @@ public class repo {
     }
 
     public static void repoA(){
-        System.out.println("printing from repoA");
+        System.out.println("print has changed");
 
     }
 
